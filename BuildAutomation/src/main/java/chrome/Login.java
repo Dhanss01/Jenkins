@@ -34,7 +34,7 @@ public class Login {
 		}
 
                 System.out.println("Job is successfull");
-		System.out.println("Job is successfull");
+		
 		driver.get("http://leaftaps.com/opentaps");
 		driver.findElementById("username").sendKeys("DemoSalesManager");
 		driver.findElementById("password").sendKeys("crmsfa");
