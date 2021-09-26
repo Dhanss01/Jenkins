@@ -33,7 +33,7 @@ public class Login {
 			driver = new FirefoxDriver();
 		}
 
-
+                System.out.println("Job is successfull");
 		driver.get("http://leaftaps.com/opentaps");
 		driver.findElementById("username").sendKeys("DemoSalesManager");
 		driver.findElementById("password").sendKeys("crmsfa");
